@@ -1,7 +1,7 @@
 currentDeployment: default
 deploymentConfigurations:
 - name: default
-  version: ''
+  version: 1.26.3
   providers:
     appengine:
       enabled: false
@@ -48,7 +48,28 @@ deploymentConfigurations:
         baseImages: []
     kubernetes:
       enabled: false
-      accounts: []
+      accounts:
+      - name: staging-demo
+        requiredGroupMembership: []
+        permissions: {}
+        dockerRegistries: []
+        providerVersion: V2
+        context: minikube
+        configureImagePullSecrets: true
+        cacheThreads: 1
+        namespaces: []
+        omitNamespaces: []
+        kinds: []
+        omitKinds: []
+        customResources: []
+        cachingPolicies: []
+        kubeconfigFile: /home/spinnaker/.kube/config
+        rawResourcesEndpointConfig:
+          kindExpressions: []
+          omitKindExpressions: []
+        oAuthScopes: []
+        onlySpinnakerManaged: false
+      primaryAccount: staging-demo
     tencentcloud:
       enabled: false
       accounts: []
@@ -65,7 +86,8 @@ deploymentConfigurations:
       accounts: []
   deploymentEnvironment:
     size: SMALL
-    type: LocalDebian
+    type: Distributed
+    accountName: staging-demo
     imageVariant: SLIM
     updateVersions: true
     consul:
