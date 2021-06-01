@@ -1,0 +1,24 @@
+May 21, 2021 10:11:46 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+May 21, 2021 10:11:47 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+May 21, 2021 10:11:47 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+May 27, 2021 9:59:43 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+May 27, 2021 9:59:44 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+May 27, 2021 9:59:44 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+May 28, 2021 8:26:34 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+May 28, 2021 8:26:35 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+May 28, 2021 8:26:36 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+May 31, 2021 1:51:19 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+May 31, 2021 1:51:20 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+May 31, 2021 1:51:20 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100

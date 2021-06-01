@@ -495,7 +495,7 @@ services:
       useTcpProbe: false
       securityContext: null
       deploymentStrategy: null
-    enabled: false
+    enabled: true
     basicAuthEnabled: null
     monitored: true
     sidecar: false

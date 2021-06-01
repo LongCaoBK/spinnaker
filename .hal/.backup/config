@@ -194,7 +194,7 @@ deploymentConfigurations:
       accounts: []
       clusters: []
     dockerRegistry:
-      enabled: false
+      enabled: true
       accounts: []
     google:
       enabled: false
@@ -227,9 +227,69 @@ deploymentConfigurations:
       bakeryDefaults:
         baseImages: []
     kubernetes:
-      enabled: false
+      enabled: true
       accounts:
       - name: staging-demo
+        requiredGroupMembership: []
+        permissions: {}
+        dockerRegistries: []
+        providerVersion: V2
+        context: minikube
+        configureImagePullSecrets: true
+        cacheThreads: 1
+        namespaces: []
+        omitNamespaces: []
+        kinds: []
+        omitKinds: []
+        customResources: []
+        cachingPolicies: []
+        kubeconfigFile: /home/spinnaker/.kube/config
+        rawResourcesEndpointConfig:
+          kindExpressions: []
+          omitKindExpressions: []
+        oAuthScopes: []
+        onlySpinnakerManaged: false
+      - name: prod-demo
+        requiredGroupMembership: []
+        permissions: {}
+        dockerRegistries: []
+        providerVersion: V2
+        context: minikube
+        configureImagePullSecrets: true
+        cacheThreads: 1
+        namespaces: []
+        omitNamespaces: []
+        kinds: []
+        omitKinds: []
+        customResources: []
+        cachingPolicies: []
+        kubeconfigFile: /home/spinnaker/.kube/config
+        rawResourcesEndpointConfig:
+          kindExpressions: []
+          omitKindExpressions: []
+        oAuthScopes: []
+        onlySpinnakerManaged: false
+      - name: dev-demo
+        requiredGroupMembership: []
+        permissions: {}
+        dockerRegistries: []
+        providerVersion: V2
+        context: minikube
+        configureImagePullSecrets: true
+        cacheThreads: 1
+        namespaces: []
+        omitNamespaces: []
+        kinds: []
+        omitKinds: []
+        customResources: []
+        cachingPolicies: []
+        kubeconfigFile: /home/spinnaker/.kube/config
+        rawResourcesEndpointConfig:
+          kindExpressions: []
+          omitKindExpressions: []
+        oAuthScopes: []
+        onlySpinnakerManaged: false
+      - name: my-account
         requiredGroupMembership: []
         permissions: {}
         dockerRegistries: []

@@ -4,7 +4,7 @@ clusters:
     certificate-authority: /home/longcao/.minikube/ca.crt
     extensions:
     - extension:
-        last-update: Mon, 17 May 2021 22:31:48 +07
+        last-update: Fri, 28 May 2021 14:47:44 +07
         provider: minikube.sigs.k8s.io
         version: v1.20.0
       name: cluster_info
@@ -15,7 +15,7 @@ contexts:
     cluster: minikube
     extensions:
     - extension:
-        last-update: Mon, 17 May 2021 22:31:48 +07
+        last-update: Fri, 28 May 2021 14:47:44 +07
         provider: minikube.sigs.k8s.io
         version: v1.20.0
       name: context_info
